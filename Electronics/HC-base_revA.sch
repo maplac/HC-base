@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -207,46 +207,46 @@ For more documentation, please visit http://www.raspberrypi.org/documentation/ha
 <wire x1="-25.7603" y1="-1.51143125" x2="-24.7603" y2="-2.51143125" width="0.127" layer="21"/>
 <wire x1="-24.7603" y1="-2.51143125" x2="25.7397" y2="-2.51143125" width="0.127" layer="21"/>
 <wire x1="25.7397" y1="-2.51143125" x2="25.7397" y2="2.48856875" width="0.127" layer="21"/>
-<pad name="P$1" x="-24.13" y="-1.27" drill="1.016" shape="square"/>
-<pad name="P$2" x="-24.13" y="1.27" drill="1.016"/>
-<pad name="P$3" x="-21.59" y="-1.27" drill="1.016"/>
-<pad name="P$4" x="-21.59" y="1.27" drill="1.016"/>
-<pad name="P$5" x="-19.05" y="-1.27" drill="1.016"/>
-<pad name="P$6" x="-19.05" y="1.27" drill="1.016"/>
-<pad name="P$7" x="-16.51" y="-1.27" drill="1.016"/>
-<pad name="P$8" x="-16.51" y="1.27" drill="1.016"/>
-<pad name="P$9" x="-13.97" y="-1.27" drill="1.016"/>
-<pad name="P$10" x="-13.97" y="1.27" drill="1.016"/>
-<pad name="P$11" x="-11.43" y="-1.27" drill="1.016"/>
-<pad name="P$12" x="-11.43" y="1.27" drill="1.016"/>
-<pad name="P$13" x="-8.89" y="-1.27" drill="1.016"/>
-<pad name="P$14" x="-8.89" y="1.27" drill="1.016"/>
-<pad name="P$15" x="-6.35" y="-1.27" drill="1.016"/>
-<pad name="P$16" x="-6.35" y="1.27" drill="1.016"/>
-<pad name="P$17" x="-3.81" y="-1.27" drill="1.016"/>
-<pad name="P$18" x="-3.81" y="1.27" drill="1.016"/>
-<pad name="P$19" x="-1.27" y="-1.27" drill="1.016"/>
-<pad name="P$20" x="-1.27" y="1.27" drill="1.016"/>
-<pad name="P$21" x="1.27" y="-1.27" drill="1.016"/>
-<pad name="P$22" x="1.27" y="1.27" drill="1.016"/>
-<pad name="P$23" x="3.81" y="-1.27" drill="1.016"/>
-<pad name="P$24" x="3.81" y="1.27" drill="1.016"/>
-<pad name="P$25" x="6.35" y="-1.27" drill="1.016"/>
-<pad name="P$26" x="6.35" y="1.27" drill="1.016"/>
-<pad name="P$27" x="8.89" y="-1.27" drill="1.016"/>
-<pad name="P$28" x="8.89" y="1.27" drill="1.016"/>
-<pad name="P$29" x="11.43" y="-1.27" drill="1.016"/>
-<pad name="P$30" x="11.43" y="1.27" drill="1.016"/>
-<pad name="P$31" x="13.97" y="-1.27" drill="1.016"/>
-<pad name="P$32" x="13.97" y="1.27" drill="1.016"/>
-<pad name="P$33" x="16.51" y="-1.27" drill="1.016"/>
-<pad name="P$34" x="16.51" y="1.27" drill="1.016"/>
-<pad name="P$35" x="19.05" y="-1.27" drill="1.016"/>
-<pad name="P$36" x="19.05" y="1.27" drill="1.016"/>
-<pad name="P$37" x="21.59" y="-1.27" drill="1.016"/>
-<pad name="P$38" x="21.59" y="1.27" drill="1.016"/>
-<pad name="P$39" x="24.13" y="-1.27" drill="1.016"/>
-<pad name="P$40" x="24.13" y="1.27" drill="1.016"/>
+<pad name="P$1" x="-24.13" y="-1.27" drill="0.8" shape="square"/>
+<pad name="P$2" x="-24.13" y="1.27" drill="0.8"/>
+<pad name="P$3" x="-21.59" y="-1.27" drill="0.8"/>
+<pad name="P$4" x="-21.59" y="1.27" drill="0.8"/>
+<pad name="P$5" x="-19.05" y="-1.27" drill="0.8"/>
+<pad name="P$6" x="-19.05" y="1.27" drill="0.8"/>
+<pad name="P$7" x="-16.51" y="-1.27" drill="0.8"/>
+<pad name="P$8" x="-16.51" y="1.27" drill="0.8"/>
+<pad name="P$9" x="-13.97" y="-1.27" drill="0.8"/>
+<pad name="P$10" x="-13.97" y="1.27" drill="0.8"/>
+<pad name="P$11" x="-11.43" y="-1.27" drill="0.8"/>
+<pad name="P$12" x="-11.43" y="1.27" drill="0.8"/>
+<pad name="P$13" x="-8.89" y="-1.27" drill="0.8"/>
+<pad name="P$14" x="-8.89" y="1.27" drill="0.8"/>
+<pad name="P$15" x="-6.35" y="-1.27" drill="0.8"/>
+<pad name="P$16" x="-6.35" y="1.27" drill="0.8"/>
+<pad name="P$17" x="-3.81" y="-1.27" drill="0.8"/>
+<pad name="P$18" x="-3.81" y="1.27" drill="0.8"/>
+<pad name="P$19" x="-1.27" y="-1.27" drill="0.8"/>
+<pad name="P$20" x="-1.27" y="1.27" drill="0.8"/>
+<pad name="P$21" x="1.27" y="-1.27" drill="0.8"/>
+<pad name="P$22" x="1.27" y="1.27" drill="0.8"/>
+<pad name="P$23" x="3.81" y="-1.27" drill="0.8"/>
+<pad name="P$24" x="3.81" y="1.27" drill="0.8"/>
+<pad name="P$25" x="6.35" y="-1.27" drill="0.8"/>
+<pad name="P$26" x="6.35" y="1.27" drill="0.8"/>
+<pad name="P$27" x="8.89" y="-1.27" drill="0.8"/>
+<pad name="P$28" x="8.89" y="1.27" drill="0.8"/>
+<pad name="P$29" x="11.43" y="-1.27" drill="0.8"/>
+<pad name="P$30" x="11.43" y="1.27" drill="0.8"/>
+<pad name="P$31" x="13.97" y="-1.27" drill="0.8"/>
+<pad name="P$32" x="13.97" y="1.27" drill="0.8"/>
+<pad name="P$33" x="16.51" y="-1.27" drill="0.8"/>
+<pad name="P$34" x="16.51" y="1.27" drill="0.8"/>
+<pad name="P$35" x="19.05" y="-1.27" drill="0.8"/>
+<pad name="P$36" x="19.05" y="1.27" drill="0.8"/>
+<pad name="P$37" x="21.59" y="-1.27" drill="0.8"/>
+<pad name="P$38" x="21.59" y="1.27" drill="0.8"/>
+<pad name="P$39" x="24.13" y="-1.27" drill="0.8"/>
+<pad name="P$40" x="24.13" y="1.27" drill="0.8"/>
 </package>
 <package name="NRF24L01">
 <pad name="1" x="-1.27" y="5.08" drill="0.8" shape="square"/>
@@ -1293,28 +1293,28 @@ More information and support community is available at https://www.element14.com
 <part name="R3" library="1_domaci" deviceset="R" device="'2'" value="10k"/>
 <part name="T2" library="1_domaci" deviceset="BSS138" device="" value="BSS138"/>
 <part name="LED1" library="1_domaci" deviceset="LED" device="'SMD'" value="GREEN"/>
-<part name="R4" library="1_domaci" deviceset="R" device="'2'" value="680R"/>
+<part name="R4" library="1_domaci" deviceset="R" device="'2'" value="3k3"/>
 <part name="+3V4" library="1_domaci" deviceset="+3V3" device=""/>
 <part name="GND5" library="1_domaci" deviceset="GND" device=""/>
 <part name="R2" library="1_domaci" deviceset="R" device="'2'" value="1k"/>
 <part name="R5" library="1_domaci" deviceset="R" device="'2'" value="10k"/>
 <part name="T3" library="1_domaci" deviceset="BSS138" device="" value="BSS138"/>
 <part name="LED2" library="1_domaci" deviceset="LED" device="'SMD'" value="GREEN"/>
-<part name="R6" library="1_domaci" deviceset="R" device="'2'" value="680R"/>
+<part name="R6" library="1_domaci" deviceset="R" device="'2'" value="3k3"/>
 <part name="+3V5" library="1_domaci" deviceset="+3V3" device=""/>
 <part name="GND6" library="1_domaci" deviceset="GND" device=""/>
 <part name="R7" library="1_domaci" deviceset="R" device="'2'" value="1k"/>
 <part name="R8" library="1_domaci" deviceset="R" device="'2'" value="10k"/>
 <part name="T4" library="1_domaci" deviceset="BSS138" device="" value="BSS138"/>
 <part name="LED3" library="1_domaci" deviceset="LED" device="'SMD'" value="ORANGE"/>
-<part name="R9" library="1_domaci" deviceset="R" device="'2'" value="680R"/>
+<part name="R9" library="1_domaci" deviceset="R" device="'2'" value="1k"/>
 <part name="+3V6" library="1_domaci" deviceset="+3V3" device=""/>
 <part name="GND7" library="1_domaci" deviceset="GND" device=""/>
 <part name="R10" library="1_domaci" deviceset="R" device="'2'" value="1k"/>
 <part name="R11" library="1_domaci" deviceset="R" device="'2'" value="10k"/>
 <part name="T5" library="1_domaci" deviceset="BSS138" device="" value="BSS138"/>
 <part name="LED4" library="1_domaci" deviceset="LED" device="'SMD'" value="RED"/>
-<part name="R12" library="1_domaci" deviceset="R" device="'2'" value="680R"/>
+<part name="R12" library="1_domaci" deviceset="R" device="'2'" value="560R"/>
 <part name="+3V7" library="1_domaci" deviceset="+3V3" device=""/>
 <part name="GND8" library="1_domaci" deviceset="GND" device=""/>
 <part name="R13" library="1_domaci" deviceset="R" device="'2'" value="1k"/>
