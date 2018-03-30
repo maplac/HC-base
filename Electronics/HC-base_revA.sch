@@ -1351,7 +1351,7 @@ More information and support community is available at https://www.element14.com
 <instance part="+3V3" gate="G$1" x="-20.32" y="106.68"/>
 <instance part="GND3" gate="1" x="-20.32" y="86.36"/>
 <instance part="P+2" gate="1" x="30.48" y="114.3"/>
-<instance part="GND4" gate="1" x="40.64" y="93.98"/>
+<instance part="GND4" gate="1" x="30.48" y="91.44"/>
 <instance part="R3" gate="G$1" x="43.18" y="55.88" rot="R90"/>
 <instance part="T2" gate="G$1" x="50.8" y="63.5" smashed="yes">
 <attribute name="NAME" x="50.038" y="55.626" size="1.778" layer="95" rot="R90"/>
@@ -1498,7 +1498,8 @@ More information and support community is available at https://www.element14.com
 <segment>
 <pinref part="U1" gate="G" pin="GND@6"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="25.4" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="P$1"/>
@@ -1624,9 +1625,9 @@ More information and support community is available at https://www.element14.com
 <pinref part="R2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO24"/>
-<label x="30.48" y="66.04" size="1.778" layer="95"/>
+<label x="33.02" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1672,9 +1673,9 @@ More information and support community is available at https://www.element14.com
 <pinref part="R7" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO23"/>
-<label x="30.48" y="71.12" size="1.778" layer="95"/>
+<label x="33.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -1684,9 +1685,9 @@ More information and support community is available at https://www.element14.com
 <pinref part="R10" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="-2.54" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="71.12" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO22"/>
-<label x="-12.7" y="71.12" size="1.778" layer="95"/>
+<label x="-15.24" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -1696,9 +1697,9 @@ More information and support community is available at https://www.element14.com
 <pinref part="R13" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="76.2" x2="-2.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="76.2" x2="-2.54" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO27"/>
-<label x="-12.7" y="76.2" size="1.778" layer="95"/>
+<label x="-15.24" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -1730,9 +1731,9 @@ More information and support community is available at https://www.element14.com
 <label x="45.72" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-2.54" y1="81.28" x2="-10.16" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO17"/>
-<label x="-12.7" y="81.28" size="1.778" layer="95"/>
+<label x="-15.24" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUT2" class="0">
@@ -1742,9 +1743,9 @@ More information and support community is available at https://www.element14.com
 <label x="73.66" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-2.54" y1="91.44" x2="-10.16" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="91.44" x2="-12.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G" pin="GPIO4"/>
-<label x="-12.7" y="91.44" size="1.778" layer="95"/>
+<label x="-15.24" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
